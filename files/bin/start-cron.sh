@@ -1,3 +1,4 @@
+crontab -r
 crontab /app/crontab
 cron
 touch /var/log/cron.log
