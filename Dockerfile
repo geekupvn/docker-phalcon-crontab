@@ -5,7 +5,6 @@ RUN apt-get update && apt-get install -y apt-utils cron
 
 ADD files/crontab /app/crontab
 ADD files/bin/start-cron.sh /usr/bin/start-cron.sh
-RUN crontab /app/crontab
 RUN chmod +x /usr/bin/start-cron.sh
 RUN touch /var/log/cron.log
 
