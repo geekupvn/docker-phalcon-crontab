@@ -1,3 +1,4 @@
+env > /var/.env
 crontab -r
 crontab /app/crontab
 cron
