@@ -1,4 +1,4 @@
-FROM xuanthinh244/docker-phalcon
+FROM geekupvn/docker-phalcon
 MAINTAINER thinhvoxuan <thinhvoxuan@gmail.com>
 
 RUN apt-get update && apt-get install -y apt-utils cron
